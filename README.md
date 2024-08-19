@@ -1,8 +1,8 @@
 # Minha API de Series
-Simples
-Prático
-escalável
-Eficiente
+Simples,
+Prático,
+escalável,
+Eficiente,
 Confiável
 
 # Sobre a API
