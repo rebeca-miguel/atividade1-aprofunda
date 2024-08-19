@@ -28,4 +28,4 @@ app.post('/series', (req, res) => {
 });
 
 
-app.listen(3333, console.log('Meu servidor está rodando na porta 3333!'))
+app.listen(3333, console.log('O servidor está rodando na porta 3333/series!'))
