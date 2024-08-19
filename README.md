@@ -24,6 +24,12 @@ e posteriomente permitir que seja inserida outras funcionalidade como:
 # DELETAR
 # PUT
 
+# framework utilizadas
+*Express
+*Nodemon
+*Cors
+ *body-parser
+
 # Méodos utilizados
 
 GET /series: Retorna todas as SERIES armazenadas na memória.
@@ -35,17 +41,25 @@ POST /series: Adiciona uma nova SERIE à lista[].
 # Método: POST no posto os parametros são enviados través do corpo da requisição HTTP, como no exepolo abaixo: 
   
     * URL: http://localhost:3333/series - Corpo da requisição
+    
+# Body-perse-definição:
+*Faz a analise e parse dos dados de entrada contidos no corpo da requisição, disponibilizando as propriedades em req. body , as quais podem ser facilmente acessadas.
 
    
 # A estrutura JSON 
 Aqui vimos como será a estrutura das requisições no método POST pelo JSON
 
-POST
+*Postar(criar)
 {
   "id": 9,
   "title": "O alfaiate"",
   "description": "Uma serie de drama",
   "status": true
 }
+
+# Sobre o que aprendi essa semana
+*Esta semana, estudei os conceitos básicos de criação de APIs em Node.js utilizando o framework Express.
+*Aprendi a configurar rotas para métodos GET e POST e a utilizar o body-parser para interpretar dados JSON enviados nas requisições. 
+*Pratiquei a implementação de validações básicas de dados e o gerenciamento de um banco de dados em memória.
    
 
